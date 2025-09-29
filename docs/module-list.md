@@ -1,7 +1,25 @@
-(alphabetical order)
+(アルファベット順)
+<script setup lang="ts">
+import { data as modules } from "./.vitepress/modules.data.ts";
+import { useData } from 'vitepress'
+const base = '/foundry-hub'
+</script>
+<!-- TODO: 変数化する -->
+
+<ul>
+  <li v-for="m in modules" :key="m.url">
+    <a :href="base + m.url">{{ m.frontmatter.title }}</a>
+      —
+      <!-- <span v-for="t in m.frontmatter.tags" :key="t" class="tag"> -->
+      <!--   {{ t }} -->
+      <!-- </span> -->
+      <span v-for="desc in m.frontmatter.description" :key="desc" class="description">
+        {{ desc }}
+    </span>
+  </li>
+</ul>
+
 ## v13 compatible
-### Call of Cthulhu 7th Edition
-新クトゥルフ神話TRPG
 ### Dungeons & Dragons Fifth Edition
 ダンジョンズアンドドラゴンズ第五版
 ### Active Token Effect

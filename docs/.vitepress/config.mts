@@ -9,15 +9,26 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Modules', link: '/module-list' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Introduction',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'What is Foundry?' }
+        ]
+      },
+      {
+        text: 'Gamemaster',
+        items: [
+          { text: 'Module List', link: '/module-list' }
+        ]
+      },
+      {
+        items: [
+          { text: 'About', link: '/about' },
+          { text: 'Management', link: '/management' }
         ]
       }
     ],
@@ -25,5 +36,6 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/ryotai-trpg' }
     ]
-  }
+  },
+  lastUpdated: true
 })
