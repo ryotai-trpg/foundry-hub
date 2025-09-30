@@ -1,12 +1,18 @@
 # To-Do
-調査・決定が必要
+## 多分できるはず，実装する
+### moduleページの見た目を整える
+### タグ的なのをつける
+## 調査・決定が必要
 ### ソースでの改行の仕様
-https://github.com/y-yu/myBlog/blob/master/articles/delete_newline.md  
-改行
-の仕様が
-TeXと違う問題を解決したい  
+改行するとこのように
+半角スペースが入ってしまうというTeXと違う仕様を
+解決したい  
 →難しそう，一旦諦める
 と思ったけど機能として必要すぎる，要検討
+
+#### 参考
+https://zenn.dev/yasuraok/articles/7c8a6dc3f9bb10  
+https://github.com/y-yu/myBlog/blob/master/articles/delete_newline.md  
 
 ### 文末表現の統一
 常体（だ・である調）か敬体（です・ます調）のどちらで書くのかを早めに決める．
@@ -15,6 +21,7 @@ TeXと違う問題を解決したい
 
 ### ライセンス
 CC0で問題なさそう？
+→CC0にした，どこからか怒られたらその時考える
 
 # Reference
 ### VitePress

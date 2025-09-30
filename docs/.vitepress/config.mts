@@ -16,26 +16,37 @@ export default defineConfig({
       {
         text: 'Introduction',
         items: [
-          { text: 'What is Foundry?' }
+          { text: 'What is Foundry?', link: 'whats-foundry' }
         ]
       },
       {
         text: 'Gamemaster',
         items: [
-          { text: 'Module List', link: '/module-list' }
+          { text: 'Modules', link: '/module-list' },
+          { text: 'Tips' },
         ]
       },
       {
         items: [
           { text: 'About', link: '/about' },
-          { text: 'Management', link: '/management' }
+          { text: 'Links', link: '/links' }
         ]
+      // },
+      // {
+      //   items: [
+      //     { text: 'Memo', link: '/memo' }
+      //   ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/ryotai-trpg' }
-    ]
+      { icon: 'github', link: 'https://github.com/ryotai-trpg/foundry-hub' }
+    ],
+
+    footer: {
+        message: 'Released under the CC0 License.',
+        copyright: 'No Rights Reserved.'
+    }
   },
   lastUpdated: true
 })

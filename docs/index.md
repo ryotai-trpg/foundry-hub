@@ -8,10 +8,13 @@ hero:
   tagline: Foundry Virtual Tabletop（FVTT, オンセ工房）に関する情報を個人的に書き残しておくためのサイト
   actions:
     - theme: brand
-      text: Module List
+      text: Modules
       link: /module-list
     - theme: alt
       text: About
       link: /about
 
 ---
+コンテンツが充実するのを待ってたら一生終わらなさそうなので，あちこち工事中ですがこっそり公開してます．
+
+GitHubでソースファイル（マークダウン形式）を確認できます．
